@@ -298,3 +298,5 @@ fmap (*2) Nothing    === Nothing
 fmap (*2) (Exists 4) === Exists 8
 (+5) <$> (Exists 5)  === Exists 10 
 ```
+
+> I never finished the writeup but I really should! Code is complete though, so take a look there for the final step of upgrading an Applicative to a Monad and some examples of the full power it offers.
